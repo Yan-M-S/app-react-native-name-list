@@ -10,7 +10,7 @@ export function NameCard({name, ...rest} : NameProps) {
 
   return (
     <TouchableOpacity
-    {...restgi}
+    {...rest}
     >
       <Text style={styles.list}>{name}</Text>
     </TouchableOpacity>  
